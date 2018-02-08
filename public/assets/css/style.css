@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+
+#mainform {
+  width: 960px;
+  margin: 20px auto;
+  padding-top: 10%;
+  font-size: 32px;
+  font-family: 'Fauna One', serif;
+  text-align: center;
+}
+
+ #mainform h2 {
+  text-shadow: 1px 0px 3px gray;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 1px 0px 3px gray;
+}
+
+.form {
+  border-radius: 2px;
+  padding: 20px 30px;
+  box-shadow: 0 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 350px;
+  /* margin: 20px 250px 0 35px; */
+  float: left;
+}
+
+input {
+  width: 99%;
+  height: 35px;
+  margin-top: 5px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+  input[type=button] {
+    background-color: #123456;
+    border: 1px solid white;
+    font-family: 'Fauna One', serif;
+    font-Weight: bold;
+    font-size: 18px;
+    color: white;
+    width: 49%;
+  }
+
+#logindiv {
+  opacity: 0.92;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  /* display: none; */
+}
+
+#signupdiv {
+  opacity: 0.92;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+
+}
+
+#login {
+  width: 400px;
+  margin: 0px;
+  background-color: white;
+  font-family: 'Fauna One', serif;
+  position: relative;
+  border: 5px solid rgb(90, 158, 181);
+}
+#signup {
+  width: 500px;
+  background-color: white;
+  font-family: 'Fauna One', serif;
+  position: relative;
+  border: 5px solid rgb(90, 158, 181);
+}
+
+#login {
+  left: 50%;
+  top: 45%;
+  margin-left: -210px;
+  margin-top: -158px;
+}
+#signup {
+  left: 50%;
+  top: 25%;
+  margin-left: -210px;
+  margin-top: -158px;
+}
+
+.email, .username, .password, .firstName, .lastName, .confirmedPassword{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.loginbtn, .cancelbtn {
+  margin-bottom: 5%;
+}
+
+#mainform h4 {
+  padding-top: 2%;
+}
